@@ -10,13 +10,14 @@ pokehoum responde a las preguntas propuestas por HOUM.
 * [Flask](https://flask-es.readthedocs.io/changes/#version-2-0-3): Version 2.0.3
 * [PokéAPI](https://pokeapi.co/docs/v2): Version 2
 * [pokebase](https://github.com/PokeAPI/pokebase): Version 1.3.0
+* [requests](https://docs.python-requests.org/en/latest/community/updates/): Version 2.27.1
 
 ## Instalación
 ***
 Comandos recomendados para instalación en plataformas Windows. 
 ```
 > git clone https://github.com/afcarrera/pokehoum
-> cd ..\pokehoum
+> cd pokehoum
 > python -m venv venv
 > venv\Scripts\activate  
 > venv\Scripts\pip install -r requirements.txt
