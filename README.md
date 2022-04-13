@@ -17,7 +17,7 @@ Comandos recomendados para instalación en plataformas Windows.
 ```
 > git clone https://github.com/afcarrera/pokehoum
 > cd ..\pokehoum
-> pip install venv venv
+> python -m venv venv
 > venv\Scripts\activate  
 > venv\Scripts\pip install -r requirements.txt
 > venv\Scripts\python app.py 
