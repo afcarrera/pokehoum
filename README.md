@@ -20,7 +20,7 @@ Comandos recomendados para instalación en plataformas Windows.
 > pip install venv venv
 > venv\Scripts\activate  
 > venv\Scripts\pip install -r requirements.txt
-> venv\Scripts\python main.py 
+> venv\Scripts\python app.py 
 ```
 
 ## Uso
