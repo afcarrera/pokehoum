@@ -71,7 +71,7 @@ class Service:
             poke_species_groups = [egg_group.pokemon_species for egg_group in poke_specie.egg_groups]
             poke_species_concatenated = chain.from_iterable(poke_species_groups)
             poke_species = set(specie.name for specie in poke_species_concatenated)
-            counter = len(poke_species) - 1
+            counter = len(poke_species)
             return counter
         except AttributeError:
             return self.QUERY_ERROR
